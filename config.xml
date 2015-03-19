@@ -16,7 +16,6 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-    <icon src="www/icon.png" />
     <platform name="android">
         <!-- Para a splash screen aparecer corretamente no Android -->
         <preference name="SplashScreen" value="screen" />
