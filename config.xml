@@ -19,6 +19,7 @@
   </feature>
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <icon src="res/icon/android/drawable-ldpi.png"/>
+    <splash src="res/screen/android/drawable-land-hdpi.png"/>
     <platform name="android">
         <!-- Para a splash screen aparecer corretamente no Android -->
         <preference name="SplashScreen" value="res/screen/android/drawable-land-hdpi.png" />
