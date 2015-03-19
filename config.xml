@@ -17,4 +17,26 @@
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
     <icon src="www/icon.png" />
+    <platform name="android">
+        <!-- Para a splash screen aparecer corretamente no Android -->
+        <preference name="SplashScreen" value="screen" />
+        <!--
+            O ideal é usar um plugin para oculpar a splash
+            screen quando seu app estiver pronto
+        -->
+        <preference name="SplashScreenDelay" value="1000" />
+        <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi.png" />
+        <splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi.png" />
+        <splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi.png" />
+        <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi.png" />
+        <icon density="ldpi" src="res/icon/android/drawable-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/drawable-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/drawable-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/drawable-xhdpi.png" />
+    </platform>
+    <preference name="SplashScreenDelay" value="10000" />
 </widget>
